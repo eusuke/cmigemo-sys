@@ -1,0 +1,16 @@
+[package]
+name = "cmigemo-sys"
+version = "0.1.0"
+authors = ["Yusuke SAKAI <yusuke.inquisitor@gmail.com>"]
+edition = "2018"
+build = "src/build.rs"
+links = "cmigemo"
+
+[build-dependencies]
+cc = { optional = true, version = "1" }
+bindgen = "0.54"
+
+[dependencies]
+
+[features]
+default = ["cc"]
