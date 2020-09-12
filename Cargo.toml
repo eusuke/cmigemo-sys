@@ -8,7 +8,7 @@ links = "cmigemo"
 
 [build-dependencies]
 cc = { optional = true, version = "1" }
-bindgen = "0.54"
+bindgen = "0.55"
 
 [dependencies]
 
